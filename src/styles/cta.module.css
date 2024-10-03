@@ -1,0 +1,56 @@
+.cta {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #ffe066;
+}
+
+.cta h2 {
+  font-size: 36px;
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 18px;
+  color: #2d3436;
+  margin-bottom: 30px;
+}
+
+.cta form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta input[type='email'] {
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 2px solid #2d3436;
+  border-radius: 30px;
+  margin-right: 10px;
+  width: 300px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.cta button {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #ff7675;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta button:hover {
+  background-color: #d63031;
+}
+
+.thankYouMessage {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #2d3436;
+}
